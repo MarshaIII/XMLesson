@@ -18,26 +18,26 @@
 <TimeTable>
     <complexes>
         <complexe code = 'Tylskaya'>
-            <name> Тульская <name/>
-            <adress> улица Дубининская 96 <adress/>
-        <complexe/>
+            <name> Тульская </name>
+            <adress> улица Дубининская 96 </adress>
+        </complexe>
         <complexe code = 'VDNkH'>
-            <name> ВДНХ <name/>
-            <adress> Проспект Мира 119 <adress/>
-        <complexe/>
-    <complexes/>
+            <name> ВДНХ </name>
+            <adress> Проспект Мира 119 </adress>
+        </complexe>
+    </complexes>
     <lessons>
         <lesson  no='2' complex= 'Tylskaya'>
-            <date> 01.10.2020 <date/>
-            <time> 11:00 <time/>
-        <lesson/>
+            <date> 01.10.2020 </date>
+            <time> 11:00 </time>
+        </lesson>
         <lesson  no='3' complex= 'Tylskaya'>
-            <date> 01.10.2020 <date/>
-            <time> 12:30 <time/>
-        <lesson/>
+            <date> 01.10.2020 </date>
+            <time> 12:30 </time>
+        </lesson>
         <lesson no='4' complex= 'VDNkH'>
-            <date> 01.10.2020 <date/>
-            <time> 15:00 <time/>
-        <lesson/>
-    <lessons/>
-<TimeTable/>
+            <date> 01.10.2020 </date>
+            <time> 15:00 </time>
+        </lesson>
+    </lessons>
+</TimeTable>
