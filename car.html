@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>кт5</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body{
+            background-color: rgb(162, 255, 255);
+        }
+        .sun{
+            position: absolute;
+            top: 20px;
+            left:600px;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color: yellow;
+        }
+        .road{
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+            height: 200px;
+            background-color: rgb(83, 83, 83);
+        }
+       .car{
+            position: absolute;
+            right: 80%;
+            bottom: 60px;
+            width: 200px;
+            height: 125px;
+       }
+        .carbody{
+            position: absolute; 
+            bottom:25px;
+            width: 200px;
+            height: 100px;
+            background-color: brown;
+            z-index: 1;
+        }
+        .w1{
+            position: absolute;
+            bottom: 0px;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: rgb(0, 0, 0);
+            z-index: 2;
+        }
+        .w2{
+            position: absolute;
+            bottom: 0px;
+            left: 150px;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: rgb(0, 0, 0);
+            z-index: 2;
+        }
+        .b2{
+            position: absolute;
+            bottom: 100px;
+            left: 150px;
+            height: 30px;
+            width: 50px;
+            background-color: rgb(83, 83, 83);
+            z-index: 3;
+        }
+        @keyframes move{
+            from{
+            right: 80%;
+        }
+            to{
+            right: 20px;
+        }
+        }
+        .car{
+            animation: move 5s forwards;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="sun"></div>
+    <div class="road"></div>
+<div class="car">
+    <div class="carbody"></div>
+    <div class="w1"></div>
+    <div class="w2"></div>
+    <div class="b2"></div>
+</div>
+</body>
+</html>
