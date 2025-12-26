@@ -1,0 +1,23 @@
+.card{
+    width: 200px;
+    background-color: beige;
+}
+.status{
+    height: 15px;
+    width: 15px;
+    border-radius:50%;
+    background-color: chartreuse;
+    position: relative;
+    left: 185px;
+    bottom: 104.5px;
+}
+b{
+   position: relative;
+   right: 200px;
+   bottom: 5px;
+}
+.sm{
+    position: absolute;
+    top: 308px;
+    left: 100px;
+}

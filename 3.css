@@ -1,0 +1,33 @@
+@media (max-width: 480px) and (max-height: 900px){
+body {
+    background-color: blue;
+    font-size: 50px;
+}
+.conta{
+    flex-direction: column;
+}
+.img{
+    height: 0px;
+    width: 0px;
+}
+.img1{
+    height: 0px;
+    width: 0px;
+}
+}
+@media (min-width: 1024px) and (orientation: landscape){
+    body{background-color: pink;}
+    .img2{
+    height: 0px;
+    width: 0px;
+}
+}
+.conta{
+    display: flex;
+}
+.bl{
+    height: 30px;
+    width: 20px;
+    background-color: black;
+    margin: 20px;
+}
